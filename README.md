@@ -2,7 +2,7 @@
 
 This is a simple web application that allows users to view a list of all available Pokemons and their details.
 
-## Features
+## **Features******
 
 - Homepage: List all available Pokemon with pagination (20 Pokemon per page).
 - Display each Pokemon's image, number, name, and types.
