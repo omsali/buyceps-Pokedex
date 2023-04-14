@@ -1,0 +1,24 @@
+.navbarWrapper {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid lightgray;
+  align-items: center;
+  padding: 1rem;
+  font-size: 1.2rem;
+}
+.navbarOptions {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+  cursor: pointer;
+}
+.searchInput {
+  padding: 5px;
+  border-radius: 1rem;
+  box-sizing: border-box;
+  padding-left: 15px;
+  border: 0.5px solid grey;
+  outline: none;
+  color: #ecf4fd;
+}
+/* ecf4fd */
