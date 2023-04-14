@@ -1,4 +1,4 @@
-####Pokedex App
+##**Pokedex App**
 
 This is a simple web application that allows users to view a list of all available Pokemons and their details.
 
