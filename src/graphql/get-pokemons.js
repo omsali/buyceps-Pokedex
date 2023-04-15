@@ -37,10 +37,21 @@ const GET_POKEMON = gql`
       resistant
       evolutions {
         id
+        number
+        image
         name
+        types
       }
     }
   }
 `;
 
-export { GET_POKEMONS, GET_POKEMON };
+const GET_POKEID = gql`
+query {
+  pokemons(first: 20) {
+    id
+  }
+}
+`;
+
+export { GET_POKEMONS, GET_POKEMON, GET_POKEID };
